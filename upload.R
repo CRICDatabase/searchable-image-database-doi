@@ -17,7 +17,7 @@ cric_upload_image <- function(db_row) {
     paste0(
       "Image ",
       db_row["id"],
-      " Image ID from microscope slides of the uterine cervix ",
+      " from microscope slides of the uterine cervix ",
       "using the conventional smear (Pap smear). ",
       "Data visualisation of classification available at http://database.cric.com.br/classification/image/",
       db_row["id"],
