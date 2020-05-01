@@ -142,7 +142,7 @@ def sync_doi():
             ),
             json={
                 "title": "CRIC Cervix Microscope Slide Image #{}".format(image_id),
-                "description": "Image {} Image ID from microscope slides of the uterine cervix using the conventional smear (Pap smear). Data visualisation of classification available at http://database.cric.com.br/classification/image/{}.".format(image_id, image_id),
+                "description": "Image {} from microscope slides of the uterine cervix using the conventional smear (Pap smear). Data visualisation of classification available at http://database.cric.com.br/classification/image/{}.".format(image_id, image_id),
                 "funding_list": fundings
             },
             headers=headers,
