@@ -29,6 +29,6 @@ and
 update the database,
 we use `pull.py`.
 
-``
+```
 $ python pull.py --token YOUR_FIGSHARE_API_TOKEN
 ```
